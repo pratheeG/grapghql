@@ -1,0 +1,29 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/premsuryamj/graphql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/premsuryamj/graphql/issues"
+  },
+  "homepage": "https://gitlab.com/premsuryamj/graphql#readme",
+  "dependencies": {
+    "apollo-server-express": "^3.6.7",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "graphql": "^16.3.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
